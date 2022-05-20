@@ -136,6 +136,13 @@ body {
 	background-color: var(--clr-neutral-lightest);
 }
 
+.error-message {
+	text-align: center;
+	margin-top: 1rem;
+	color: var(--clr-primary);
+	display: none;
+}
+
 /* Thank You section styling */
 .rating-thanks {
 	padding-block: 1rem;
