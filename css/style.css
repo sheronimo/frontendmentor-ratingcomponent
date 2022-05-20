@@ -47,7 +47,7 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	padding-inline: 1.5rem;
+	padding: 1.5rem;
 	line-height: 1.5;
 }
 
@@ -82,6 +82,7 @@ body {
 .input-group {
 	display: flex;
 	justify-content: space-between;
+	gap: 1.25rem;
 	align-items: center;
 }
 
@@ -93,7 +94,7 @@ body {
 
 .label-rating {
 	width: 3.25rem;
-	height: 3.25rem;
+	aspect-ratio: 1;
 	line-height: 3.25rem;
 	display: flex;
 	align-items: center;
@@ -168,4 +169,15 @@ body {
 
 .show {
 	display: block;
+}
+
+@media (max-width: 31.25rem) {
+	.label-rating {
+		width: 2.625rem;
+		line-height: 2.625rem;
+	}
+
+	.input-group {
+		gap: 0.5rem;
+	}
 }
