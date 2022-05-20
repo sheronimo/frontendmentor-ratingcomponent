@@ -60,6 +60,10 @@ body {
 }
 
 /* Card Contents */
+.rating-state {
+	display: none;
+}
+
 .icon-star {
 	padding: 1rem;
 	background-color: var(--clr-secondary);
@@ -136,6 +140,7 @@ body {
 .rating-thanks {
 	padding-block: 1rem;
 	text-align: center;
+	display: none;
 }
 
 .img-thanks {
@@ -152,4 +157,8 @@ body {
 	border-radius: 3rem;
 	line-height: 1;
 	margin-bottom: 2.375rem;
+}
+
+.show {
+	display: block;
 }
