@@ -1,6 +1,7 @@
 /* Import Font */
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
 
+/* Variables */
 :root {
 	--max-width: 25.75rem;
 	--fs: 0.9375rem;
@@ -14,4 +15,23 @@
 	--clr-neutral-lightest: hsl(0, 0%, 100%);
 	--clr-neutral-lighter: hsl(217, 12%, 63%);
 	--clr-neutral: hsl(216, 12%, 54%);
+}
+
+/* Resets */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+input {
+	font-family: inherit;
+	font-size: inherit;
+}
+
+img {
+	max-width: 100%;
+	display: block;
 }
