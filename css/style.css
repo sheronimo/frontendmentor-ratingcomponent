@@ -71,6 +71,7 @@ body {
 	font-size: 1.75rem;
 	color: var(--clr-neutral-lightest);
 	margin-bottom: 1rem;
+	font-weight: 700;
 }
 
 /* Ratings Form */
@@ -129,4 +130,26 @@ body {
 .btn-submit:hover {
 	color: var(--clr-primary);
 	background-color: var(--clr-neutral-lightest);
+}
+
+/* Thank You section styling */
+.rating-thanks {
+	padding-block: 1rem;
+	text-align: center;
+}
+
+.img-thanks {
+	margin-inline: auto;
+	margin-bottom: 2rem;
+}
+
+.selected-rating {
+	display: inline-block;
+	color: var(--clr-primary);
+	background-color: var(--clr-secondary);
+	padding-block: 0.625rem;
+	padding-inline: 1.25rem;
+	border-radius: 3rem;
+	line-height: 1;
+	margin-bottom: 2.375rem;
 }
