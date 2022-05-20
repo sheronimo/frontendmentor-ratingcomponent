@@ -40,7 +40,7 @@ img {
 body {
 	font-family: var(--ff);
 	font-size: var(--fs);
-	background-color: var(--clr-secondary-darker);
+	background-color: hsl(0, 0%, 0%);
 	color: var(--clr-neutral-lighter);
 	min-height: 100vh;
 	display: flex;
@@ -54,7 +54,7 @@ body {
 /* Card Styling */
 .card {
 	padding: 2rem;
-	background-color: var(--clr-secondary);
+	background-color: var(--clr-secondary-darker);
 	max-width: var(--max-width);
 	border-radius: 1.5rem;
 }
@@ -62,7 +62,7 @@ body {
 /* Card Contents */
 .icon-star {
 	padding: 1rem;
-	background-color: var(--clr-neutral);
+	background-color: var(--clr-secondary);
 	border-radius: 50%;
 	margin-bottom: 2.25rem;
 }
@@ -71,4 +71,62 @@ body {
 	font-size: 1.75rem;
 	color: var(--clr-neutral-lightest);
 	margin-bottom: 1rem;
+}
+
+/* Ratings Form */
+.input-group {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.input-rating {
+	width: 0;
+	opacity: 0;
+	position: fixed;
+}
+
+.label-rating {
+	width: 3.25rem;
+	height: 3.25rem;
+	line-height: 3.25rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	border-radius: 50%;
+	margin-top: 1.75rem;
+	background-color: var(--clr-secondary);
+	transition: all 0.3s ease;
+}
+
+.label-rating:hover {
+	background-color: var(--clr-neutral);
+	color: var(--clr-neutral-lightest);
+}
+
+.input-rating:checked + .label-rating {
+	background-color: var(--clr-primary);
+	color: var(--clr-neutral-lightest);
+}
+
+.btn-submit {
+	font-family: inherit;
+	border: none;
+	cursor: pointer;
+	display: block;
+	width: 100%;
+	margin-top: 2rem;
+	padding: 1rem;
+	border-radius: 3rem;
+	background-color: var(--clr-primary);
+	color: var(--clr-neutral-lightest);
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	transition: all 0.3s ease;
+}
+
+.btn-submit:hover {
+	color: var(--clr-primary);
+	background-color: var(--clr-neutral-lightest);
 }
