@@ -35,3 +35,18 @@ img {
 	max-width: 100%;
 	display: block;
 }
+
+/* Body Styling */
+body {
+	font-family: var(--ff);
+	font-size: var(--fs);
+	background-color: var(--clr-secondary-darker);
+	color: var(--clr-neutral-lighter);
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-inline: 1.5rem;
+	line-height: 1.5;
+}
