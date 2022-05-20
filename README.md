@@ -14,7 +14,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ## Overview
 
-Hi! This is my attempt at the Rating Component challenge. Although I've been working with React more recently, I decided to attempt this challenge using vanilla Javascript for the state management (in this case, dividing the "Ratings" portion and "Thank you" portion into two sections and showing/hiding them).
+Hi! This is my attempt at the Rating Component challenge. Although I've been working with React more recently, I decided to attempt this challenge using pure Javascript for the state management (in this case, dividing the "Ratings" portion and "Thank you" portion into two sections and showing/hiding them).
 
 During my research, I learned that using `display: none` or `visibility: hidden` on an `input` element is not ideal for accessibility, so I attempted a different method using `opacity: 0` and `width: 0`.
 
@@ -48,7 +48,7 @@ Mobile
 
 ### What I learned
 
-I learned about how to do simple state management in vanilla Javascript and make a component interactive without having to load different pages.
+I learned about how to do simple state management in pure Javascript and make a component interactive without having to load different pages.
 
 ## Author
 
