@@ -14,8 +14,8 @@ form.addEventListener('submit', (e) => {
 			ratingState.classList.remove('show');
 			thanksState.classList.add('show');
 			selectedRatingField.innerText = rating.value;
-		} else {
-			errorMessage.classList.add('show');
 		}
 	});
+
+	errorMessage.classList.add('show');
 });
